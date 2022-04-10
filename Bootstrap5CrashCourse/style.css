@@ -1,0 +1,21 @@
+/* :: is a sudo selector ::before. 
+When using ::before or after need to use content. 
+Its adding a ghost element of 60px so that the image in the
+doesnt showcase doesnt get cutt off by the navbar and gets pushed
+down */
+
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+#map{width: 100%;
+    height: 100%;
+    border-radius: 10px;}
+
+@media(min-width: 768px){
+.news-input{width: 50%;}
+
+
+}
